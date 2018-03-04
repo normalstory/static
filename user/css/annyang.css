@@ -1,6 +1,8 @@
+.top_menu{
+
+}
 #btn_on{
   float:left;
-  width:27%;
   text-align:center;
   background:#555;
   padding:3%;
@@ -8,7 +10,6 @@
 }
 #btn_off{
   float:left;
-  width:27%;
   text-align:center;
   padding:3%;
 }
