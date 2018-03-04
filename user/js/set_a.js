@@ -1,12 +1,6 @@
 var commands = {
-  '다음*val' : function() {
-    location.href = "./page_b";
-  },
   '앞*val' : function() {
-    location.href = "./page_b";
-  },
-  '넥스트*val' : function() {
-    location.href = "./page_b";
+    alert("시작 페이지 입니다.");
   },
   '뒤로*val' : function() {
     alert("시작 페이지 입니다.");
@@ -16,6 +10,12 @@ var commands = {
   },
   '백*val' : function() {
     alert("시작 페이지 입니다.");
+  },
+  '다음*val' : function() {
+    location.href = "./b";
+  },
+  '넥스트*val' : function() {
+    location.href = "./b";
   },
   '메인*val' : function() {
     location.href = "./";

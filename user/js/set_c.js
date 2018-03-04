@@ -1,21 +1,21 @@
 var commands = {
-  '다음*val' : function() {
-    location.href = "./page_a";
-  },
   '앞*val' : function() {
-    location.href = "./page_a";
-  },
-  '넥스트*val' : function() {
-    location.href = "./page_a";
+    location.href = "./b";
   },
   '뒤로*val' : function() {
-    location.href = "./page_b";
+    location.href = "./b";
   },
   '뒷*val' : function() {
-    location.href = "./page_b";
+    location.href = "./b";
   },
   '백*val' : function() {
-    location.href = "./page_b";
+    location.href = "./b";
+  },
+  '다음*val' : function() {
+    location.href = "./a";
+  },
+  '넥스트*val' : function() {
+    location.href = "./a";
   },
   '메인*val' : function() {
     location.href = "./";
