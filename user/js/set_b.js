@@ -17,6 +17,15 @@ var commands = {
   '넥스트*val' : function() {
     location.href = "./c";
   },
+  '에이*val' : function() {
+    location.href = "./a";
+  },
+  '비*val' : function() {
+    alert("여기가 B 페이지 입니다.");
+  },
+  '씨*val' : function() {
+    location.href = "./c";
+  },
   '메인*val' : function() {
     location.href = "./";
   }

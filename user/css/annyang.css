@@ -1,4 +1,4 @@
-#btn_off{
+#btn_on{
   float:left;
   width:27%;
   text-align:center;
@@ -6,7 +6,7 @@
   padding:3%;
   color:#eee;
 }
-#btn_on{
+#btn_off{
   float:left;
   width:27%;
   text-align:center;
@@ -14,16 +14,15 @@
 }
 #page_info{
   text-align:center;
-  padding-top:40%;
+  padding:20%;
   font-size:10em;
 }
 #rec_btn{
   text-align:center;
   font-size:2em;
-  background:navy;
-  color:white;
-  margin-top:20%;
-  padding:5%;
+  margin: 0 10%;
+  background: #b30808;
+  color: white;
 }
 #main{
   margin-top:10%;
