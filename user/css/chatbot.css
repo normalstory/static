@@ -4,39 +4,26 @@ li{
 }
 #sejong{
   display:block;
-  background-image: url('/static/images/sejong.jpg');
+  background-image: url('/static/user/images/sejong.jpg');
   padding: 0;
   margin-top: 5px;
 }
 #cheonan{
   display:block;
-  background-image: url('/static/images/cheonan.jpg');
+  background-image: url('/static/user/images/cheonan.jpg');
   padding: 0;
   margin-top: 5px;
 }
 #gongju{
   display:block;
-  background-image: url('/static/images/gongju.jpg');
+  background-image: url('/static/user/images/gongju.jpg');
   padding: 0;
   margin-top: 5px;
 }
 
-* {
-  font-family: malgungothic, Verdana, Arial, sans-serif;
-}
-a:link {
-  color:#000;
-  text-decoration: none;
-}
-a:visited {
-  color:#000;
-}
-a:hover {
-  color:#33F;
-}
-p {
-  font-size: 14pt;
-}
+
+
+
 .button {
   background: -webkit-linear-gradient(top,#008dfd 0,#0370ea 100%);
   border: 1px solid #076bd2;
