@@ -1,33 +1,22 @@
-.city_logo{
+li{
   list-style: none;
-  display: block;
-  font-weight: bold;
   text-decoration: none;
-  line-height: 2.8em;
-  padding-right:.5em;
-  color: #696969;
 }
 #sejong{
   display:block;
-  list-style: none;
   background-image: url('/static/images/sejong.jpg');
-  border: 1px solid #b2b2b2;
   padding: 0;
   margin-top: 5px;
 }
 #cheonan{
   display:block;
-  list-style: none;
   background-image: url('/static/images/cheonan.jpg');
-  border: 1px solid #b2b2b2;
   padding: 0;
   margin-top: 5px;
 }
 #gongju{
   display:block;
-  list-style: none;
   background-image: url('/static/images/gongju.jpg');
-  border: 1px solid #b2b2b2;
   padding: 0;
   margin-top: 5px;
 }
