@@ -234,7 +234,7 @@ function QNA_list() {
       var result_element = document.getElementById("q_list");
 
       console.log(response);
-      result_para.innerHTML = "<h1><a href='"+response+"' download>문답 리스트 download</a></h1>" ;
+      result_para.innerHTML = "<p><a href='"+response+"' download>FAQ List</a></p>" ;
 
       result_element.appendChild(result_para);
 
@@ -314,4 +314,3 @@ current_style = style;
 //copy_info.style.display = 'none';
 //email_info.style.display = 'none';
 }
-

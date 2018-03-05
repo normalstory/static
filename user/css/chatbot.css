@@ -15,7 +15,6 @@
   letter-spacing: normal;
 }
 .center {
-  padding: 10px;
   text-align: center;
 }
 .info {
@@ -91,6 +90,6 @@
   width:100%;
 }
 #start_txt{
-  font-size:5em;
+  font-size:1.2em;
   color:white;
 }
