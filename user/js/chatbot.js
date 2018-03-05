@@ -314,3 +314,7 @@ current_style = style;
 //copy_info.style.display = 'none';
 //email_info.style.display = 'none';
 }
+
+
+var gov_div = "{{choose_gov}}";
+var api_user = "{{choose_user}}";
