@@ -55,7 +55,7 @@
 }
 
 #question_view{
-  font-size:40px;
+  font-size:20px;
   border-radius:10px;
   background:powderblue;
   color:#444;float:left;
@@ -68,7 +68,7 @@
   text-align:left;
 }
 #result_view{
-  font-size:35px;
+  font-size:15px;
   border-radius:10px;
   float:right;
   text-align:left;
