@@ -11,22 +11,25 @@ html,body {
 
 
 #sejong{
-  display:block;
+  height: 170px;
+  width: auto;
+  display: block;
+  background-repeat: no-repeat;
   background-image: url('/static/user/images/sejong.jpg');
-  padding: 0;
-  margin-top: 5px;
 }
 #cheonan{
-  display:block;
+  height: 170px;
+  width: auto;
+  display: block;
+  background-repeat: no-repeat;
   background-image: url('/static/user/images/cheonan.jpg');
-  padding: 0;
-  margin-top: 5px;
 }
 #gongju{
-  display:block;
+  height: 170px;
+  width: auto;
+  display: block;
+  background-repeat: no-repeat;
   background-image: url('/static/user/images/gongju.jpg');
-  padding: 0;
-  margin-top: 5px;
 }
 
 
