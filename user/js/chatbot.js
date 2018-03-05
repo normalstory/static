@@ -218,13 +218,12 @@ xhttp.onreadystatechange = function() {
 
 };
 
-var gov_div = "{{choose_gov}}";
-var api_user = "{{choose_user}}";
+
 var host = "https://westus.api.cognitive.microsoft.com/qnamaker/v2.0";
-var host2 = "/knowledgebases/"+gov_div+"/generateAnswer";
+var host2 = "/knowledgebases/"+"{{choose_gov}}"+"/generateAnswer";
 xhttp.open("POST", host+host2);
 xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-xhttp.setRequestHeader("Ocp-Apim-Subscription-Key",api_user);
+xhttp.setRequestHeader("Ocp-Apim-Subscription-Key","{{choose_user}}");
 xhttp.send("question="+question);
 };
 
@@ -249,13 +248,11 @@ function QNA_list() {
 
   };
 
-  var gov_div = "{{choose_gov}}";
-  var api_user = "{{choose_user}}";
   var host = "https://westus.api.cognitive.microsoft.com/qnamaker/v2.0";
-  var host2 = "/knowledgebases/"+gov_div;
+  var host2 = "/knowledgebases/"+"{{choose_gov}}";
   xhttp.open("GET", host+host2, true);
   xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  xhttp.setRequestHeader("Ocp-Apim-Subscription-Key",api_user);
+  xhttp.setRequestHeader("Ocp-Apim-Subscription-Key","{{choose_user}}");
   //xhttp.onreadystatechange = handler;
   xhttp.send();
 };
