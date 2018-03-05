@@ -101,12 +101,12 @@ start_button.style = 'background-color:darkred;';
 };
 recognition.onerror = function(event) {
 if (event.error == 'no-speech') {
-  start_button.style='background-color:navy;';
+  start_button.style='background-color:#b30808;';
   showInfo('info_no_speech');
   ignore_onend = true;
 }
 if (event.error == 'audio-capture') {
-  start_button.style='background-color:navy;';
+  start_button.style='background-color:#b30808;';
   showInfo('info_no_microphone');
   ignore_onend = true;
 }
@@ -124,7 +124,7 @@ recognizing = false;
 if (ignore_onend) {
   return;
 }
-start_button.style='background-color:navy;';
+start_button.style='background-color:#b30808;';
 if (!final_transcript) {
   showInfo('info_start');
   return;
@@ -287,7 +287,7 @@ recognition.start();
 ignore_onend = false;
 //final_span.innerHTML = '';
 //interim_span.innerHTML = '';
-start_button.style='background:navy;';
+start_button.style='background:#b30808;';
 showInfo('info_allow');
 showButtons('none');
 start_timestamp = event.timeStamp;
