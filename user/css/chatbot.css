@@ -38,6 +38,7 @@
   text-align: center;
   color: #777;
   visibility: hidden;
+  width: 80%;
 }
 
 #results {
