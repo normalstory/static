@@ -1,3 +1,16 @@
+.city_logo{
+
+}
+#sejong{
+  background-image: url('/static/images/sejong.jpg');
+}
+#cheonan{
+  background-image: url('/static/images/cheonan.jpg');
+}
+#gongju{
+  background-image: url('/static/images/gongju.jpg');
+}
+
 * {
   font-family: malgungothic, Verdana, Arial, sans-serif;
 }
