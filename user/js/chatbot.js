@@ -1,6 +1,6 @@
 
-var gov_div = "{{choose_gov}}";
-var api_user = "{{choose_user}}";
+//var gov_div = "{{choose_gov}}";
+//var api_user = "{{choose_user}}";
 
 var langs = [['Afrikaans', ['af-ZA']],
 ['Bahasa Indonesia',['id-ID']],
@@ -218,7 +218,8 @@ xhttp.onreadystatechange = function() {
 
 };
 
-
+var gov_div = "{{choose_gov}}";
+var api_user = "{{choose_user}}";
 var host = "https://westus.api.cognitive.microsoft.com/qnamaker/v2.0";
 var host2 = "/knowledgebases/"+gov_div+"/generateAnswer";
 xhttp.open("POST", host+host2);
@@ -247,6 +248,9 @@ function QNA_list() {
     }
 
   };
+
+  var gov_div = "{{choose_gov}}";
+  var api_user = "{{choose_user}}";
   var host = "https://westus.api.cognitive.microsoft.com/qnamaker/v2.0";
   var host2 = "/knowledgebases/"+gov_div;
   xhttp.open("GET", host+host2, true);
