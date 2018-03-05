@@ -234,7 +234,7 @@ function QNA_list() {
       var result_element = document.getElementById("q_list");
 
       console.log(response);
-      result_para.innerHTML = "<p><a href='"+response+"' download>FAQ List</a></p>" ;
+      result_para.innerHTML = "<p><a href='"+response+"' download>FAQ List download</a></p>" ;
 
       result_element.appendChild(result_para);
 

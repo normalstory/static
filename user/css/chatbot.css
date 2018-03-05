@@ -49,9 +49,10 @@
 
 
 #start_button {
-  border-radius: 30px;
+  border-radius: 12px;
   border: 0px;
-  background-color: #b30808;
+  padding: 0 8.5%;
+  margin: 2% 0 0;
 }
 
 #question_view{
