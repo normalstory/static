@@ -40,6 +40,8 @@ fieldset,img {
 	width: auto;
 	height: auto;
 	text-align: center;
+  margin:0;
+  padding:0;
 }
 
 .card ul.container li {
